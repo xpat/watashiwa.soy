@@ -11,6 +11,8 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^0.1.2
   google_fonts: ^0.3.8
+  auto_size_text: ^2.1.0
+
 
 dev_dependencies:
   flutter_test:

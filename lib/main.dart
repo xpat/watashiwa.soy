@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'story_brain.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:auto_size_text/auto_size_text.dart';
 
 void main() => runApp(Destini());
 
@@ -39,11 +40,12 @@ class _StoryPageState extends State<StoryPage> {
               Expanded(
                 flex: 12,
                 child: Center(
-                  child: Text(
+                  child: AutoSizeText(
                     storyBrain.getStory(),
                     style: GoogleFonts.mcLaren(
                       textStyle: TextStyle(
-                        fontSize: 25.0, color: Colors.pink.shade100,
+                        fontSize: 25.0,
+                        color: Colors.pink.shade100,
                       ),
                     ),
                   ),
@@ -59,7 +61,7 @@ class _StoryPageState extends State<StoryPage> {
                       });
                     },
                     color: Colors.grey.shade600,
-                    child: Text(
+                    child: AutoSizeText(
                       storyBrain.getChoice1(),
                       style: GoogleFonts.sriracha(
                         textStyle: TextStyle(
@@ -83,11 +85,11 @@ class _StoryPageState extends State<StoryPage> {
                       });
                     },
                     color: Colors.pink.shade700,
-                    child: Text(
+                    child: AutoSizeText(
                       storyBrain.getChoice2(),
                       style: GoogleFonts.sriracha(
                         textStyle: TextStyle(
-                          fontSize: 22.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
