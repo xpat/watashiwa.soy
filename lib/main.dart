@@ -40,7 +40,7 @@ class _StoryPageState extends State<StoryPage> {
               Expanded(
                 flex: 12,
                 child: Center(
-                  child: AutoSizeText(
+                  child: Text(
                     storyBrain.getStory(),
                     style: GoogleFonts.mcLaren(
                       textStyle: TextStyle(
