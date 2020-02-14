@@ -43,7 +43,7 @@ class _StoryPageState extends State<StoryPage> {
                     storyBrain.getStory(),
                     style: GoogleFonts.mcLaren(
                       textStyle: TextStyle(
-                        fontSize: 25.0,
+                        fontSize: 25.0, color: Colors.pink.shade100,
                       ),
                     ),
                   ),
@@ -58,7 +58,7 @@ class _StoryPageState extends State<StoryPage> {
                         storyBrain.nextStory(1);
                       });
                     },
-                    color: Colors.pink.shade700,
+                    color: Colors.grey.shade600,
                     child: Text(
                       storyBrain.getChoice1(),
                       style: GoogleFonts.sriracha(
@@ -82,7 +82,7 @@ class _StoryPageState extends State<StoryPage> {
                         storyBrain.nextStory(2);
                       });
                     },
-                    color: Colors.grey.shade500,
+                    color: Colors.pink.shade700,
                     child: Text(
                       storyBrain.getChoice2(),
                       style: GoogleFonts.sriracha(
