@@ -10,7 +10,7 @@ class StoryBrain {
     Story(
         storyTitle:
         '"Hi!, you\'re the lucky winner of a free trip to Mexico! You have 3 seconds to accept, yes or no?"',
-        choice1: 'I\'m in, why not?  \u00A1Viva Mexico!.',
+        choice1: 'I\'m in, why not?  \u00A1Viva Mexico!',
         choice2: '"Scammer", you yell, as you hang up the phone.'),
     Story(
         storyTitle:
